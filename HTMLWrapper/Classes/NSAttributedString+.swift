@@ -9,7 +9,7 @@
 import UIKit
 
 extension NSAttributedString {
-    static func wrapString(_ body: String, wrapperName: String) -> NSAttributedString? {
+    public static func wrapString(_ body: String, wrapperName: String) -> NSAttributedString? {
         do {
             if let wrapperPath = Bundle.main.path(forResource: wrapperName, ofType: "html") {
                 do {

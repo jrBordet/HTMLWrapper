@@ -10,8 +10,9 @@
 		F817092921B5562D00474267 /* HTMLWrapper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F817091F21B5562D00474267 /* HTMLWrapper.framework */; };
 		F817092E21B5562D00474267 /* HTMLWrapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817092D21B5562D00474267 /* HTMLWrapperTests.swift */; };
 		F817093021B5562D00474267 /* HTMLWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = F817092221B5562D00474267 /* HTMLWrapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F817093A21B5568E00474267 /* NSAttributedString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817093921B5568E00474267 /* NSAttributedString+.swift */; };
-		F817093C21B5569700474267 /* wrapper.html in Resources */ = {isa = PBXBuildFile; fileRef = F817093B21B5569700474267 /* wrapper.html */; };
+		F817096C21B5727700474267 /* wrapper.html in Resources */ = {isa = PBXBuildFile; fileRef = F817096A21B5727700474267 /* wrapper.html */; };
+		F817096D21B5727700474267 /* NSAttributedString+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817096B21B5727700474267 /* NSAttributedString+.swift */; };
+		F817096F21B5738000474267 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F817096E21B5738000474267 /* MyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,8 +32,9 @@
 		F817092821B5562D00474267 /* HTMLWrapperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HTMLWrapperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F817092D21B5562D00474267 /* HTMLWrapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTMLWrapperTests.swift; sourceTree = "<group>"; };
 		F817092F21B5562D00474267 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F817093921B5568E00474267 /* NSAttributedString+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+.swift"; sourceTree = "<group>"; };
-		F817093B21B5569700474267 /* wrapper.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wrapper.html; sourceTree = "<group>"; };
+		F817096A21B5727700474267 /* wrapper.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = wrapper.html; sourceTree = "<group>"; };
+		F817096B21B5727700474267 /* NSAttributedString+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSAttributedString+.swift"; sourceTree = "<group>"; };
+		F817096E21B5738000474267 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +59,7 @@
 		F817091521B5562D00474267 = {
 			isa = PBXGroup;
 			children = (
-				F817093B21B5569700474267 /* wrapper.html */,
+				F817096921B5727700474267 /* Classes */,
 				F817092121B5562D00474267 /* HTMLWrapper */,
 				F817092C21B5562D00474267 /* HTMLWrapperTests */,
 				F817092021B5562D00474267 /* Products */,
@@ -76,7 +78,6 @@
 		F817092121B5562D00474267 /* HTMLWrapper */ = {
 			isa = PBXGroup;
 			children = (
-				F817093921B5568E00474267 /* NSAttributedString+.swift */,
 				F817092221B5562D00474267 /* HTMLWrapper.h */,
 				F817092321B5562D00474267 /* Info.plist */,
 			);
@@ -90,6 +91,17 @@
 				F817092F21B5562D00474267 /* Info.plist */,
 			);
 			path = HTMLWrapperTests;
+			sourceTree = "<group>";
+		};
+		F817096921B5727700474267 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F817096A21B5727700474267 /* wrapper.html */,
+				F817096B21B5727700474267 /* NSAttributedString+.swift */,
+				F817096E21B5738000474267 /* MyClass.swift */,
+			);
+			name = Classes;
+			path = HTMLWrapper/Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -184,7 +196,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F817093C21B5569700474267 /* wrapper.html in Resources */,
+				F817096C21B5727700474267 /* wrapper.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,7 +214,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F817093A21B5568E00474267 /* NSAttributedString+.swift in Sources */,
+				F817096F21B5738000474267 /* MyClass.swift in Sources */,
+				F817096D21B5727700474267 /* NSAttributedString+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
